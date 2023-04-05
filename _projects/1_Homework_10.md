@@ -1,8 +1,8 @@
 ---
 name: Homework 10
-tools: [Python, HTML, vega-lite]
-image: 
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+tools: [Python, HTML, vega-lite, Altair]
+image: assets/pngs/hw10_viz1.png
+description: This is a homework assignment that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
   - vega-lite.min
@@ -14,16 +14,15 @@ custom_js:
 # Homework 10
 
 ## Visualization 1
+<vegachart schema-url="{{ site.baseurl }}/assets/json/viz1.json" style="width: 100%"></vegachart>
 Write-up for viz 1 goes here
 ## Visualization 2
 Write-up for viz 2 goes here
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/licenses_fall2022.csv" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/bfro_reports_fall2022.csv" text="The Data" %}
 </div>
 
 <div class="right">
