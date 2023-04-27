@@ -40,7 +40,7 @@ My main visualization is in the form of a dashboard, which means that changes th
 ## How Georgia Pays its Teachers Compared to Other States
 <vegachart schema-url="{{ site.baseurl }}/assets/json/state_teacher_salaries.json" style="width: 100%"></vegachart>
 
-
+Disclaimer: I have created this contextual visualization by myself, so I have included the code and the analysis below:
 #### Links
 <div class="left">
 {% include elements/button.html link="https://github.com/anisharaja/anisharaja.github.io/blob/master/assets/csv/tabn211.60_1.csv" text="The Data" %}
@@ -60,11 +60,11 @@ My main visualization is in the form of a dashboard, which means that changes th
 
 ## How Georgia Pays its Administrators Compared to Other States
 <img src = "{{ site.baseurl }}/assets/pngs/administrators.png"/>
-
+Disclaimer: I got this visualization from [https://www.bls.gov/oes/current/oes119039.htm]()
 
 #### Links
 <div class="left">
-{% include elements/button.html link="https://www.bls.gov/oes/current/oes119039.htm" text="The Data" %}
+{% include elements/button.html link="https://www.bls.gov/oes/current/oes119039.htm" text="Source" %}
 </div>
 
 <br>
@@ -73,7 +73,7 @@ My main visualization is in the form of a dashboard, which means that changes th
 ## Write-Up
 In the dashboard, I have decided to highlight how teachers in Georgia are paid in relation to their county's Public School CCRPI score in 2019. I have highlighted this relationship in my main visualization because a popular notion about education is that if a county has high test scores, then the salaries for the teachers tend to be higher. My goal for this visualization is to see if this notion is true or not and have some evidence to back my conclusion up. Also, I wanted to make this visualization into a dashboard format because I wanted to see if this trend would also be true for the salaries of administrators and support staff for each county. Since the points on the plot on the left look like a line going up and to the right, the idea that higher test scores leads to higher salaries in the various counties could be correct.    
 
-To add some context to the main visualization, I have added some plots to show to Georgia pays its teachers and administrators compared to other states. I also made sure to only include data from the 2020-2021 school year, as that is the time period the original dataset also records. To illustrate how Georgia pays its teachers compared to other states, I created a bar graph to show the relationship of the salaries of other states in relation to each other. I then highlighted the bar representing Georgia, so that it would be clear to the viewer as to which bar I am comparing my findings to. I also added a green line at the value that represents the average annual salary from all of the states, so I can better see how Georgia pays its teachers compared to the national average. To illustrate how Georgia pays its administrators compared to other states, I used a plot that was created by the Bureau of Labor Statistics to highlight this.
+To add some context to the main visualization, I have added some plots to show to Georgia pays its teachers and administrators compared to other states. I also made sure to only include data from the 2020-2021 school year, as that is the time period the original dataset also records. To illustrate how Georgia pays its teachers compared to other states, I created a bar graph to show the relationship of the salaries of other states in relation to each other. I then highlighted the bar representing Georgia orange, so that it would be clear to the viewer as to which bar I am comparing my findings to, since orange and blue are opposite colors on the color wheel. I also added a green line at the value that represents the average annual salary from all of the states, so I can better see how Georgia pays its teachers compared to the national average. I decided to make this line a lighter green, so that it would contrast well from the blue and the orange. To illustrate how Georgia pays its administrators compared to other states, I used a plot that was created by the Bureau of Labor Statistics to highlight this.
 
 Based on my findings, it seems that Georgia pays their teachers and administrators decently compared to other states. However, Georgia pays its teacher below the national average, since the height of the bar corresponding to Georgia is lower than the green line representing the average. According to the key of the graph from the Bureau of Labor Statistics, Georgia pays their administrators in the second highest range ($85,730 - $94,570). Considering these factors about Georgia from these two visualizations, Georgia could do better in paying its teachers and administrators. This is especially true when the viewer looks at how the teachers and administrators are being paid in individual counties compared to the national average.
 
