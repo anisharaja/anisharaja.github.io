@@ -60,7 +60,7 @@ Disclaimer: I have created this contextual visualization by myself, so I have in
 
 ## How Georgia Pays its Administrators Compared to Other States
 <img src = "{{ site.baseurl }}/assets/pngs/administrators.png"/>
-Disclaimer: I got this visualization from [https://www.bls.gov/oes/current/oes119039.htm]()
+Disclaimer: I got this visualization from [https://www.bls.gov/oes/current/oes119039.htm](https://www.bls.gov/oes/current/oes119039.htm)
 
 #### Links
 <div class="left">
