@@ -15,6 +15,7 @@ custom_js:
 ### By: Anisha Raja
 ---
 ## Average Annual Salary of PK-12 Teachers, Support Staff, and Administrators Compared to Public School CCRPI Score in Georgia counties.
+The original source of this data is from Georgia Data, which is run by University of Georgia's Carl Vinson Institute of Government. The CCRPI is the College and Career Ready Performance Index, which is how Georgia measures a school's ability to prepare its students for the future.  
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/final_dashboard.json" style="width: 100%"></vegachart>
 
@@ -24,7 +25,15 @@ My main visualization is in the form of a dashboard, which means that changes th
 
 #### Links
 <div class="left">
-{% include elements/button.html link="https://github.com/anisharaja/anisharaja.github.io/blob/master/assets/csv/county_personnel.csv" text="The Data" %}
+{% include elements/button.html link="https://georgiadata.org/data/data-tables?field_category_target_id=24" text="Original Data Source" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://www.gadoe.org/Curriculum-Instruction-and-Assessment/Accountability/Documents/Resdesigned%20CCRPI%20Support%20Documents/Family%20Guides/A%20Family%27s%20Guide%20to%20Georgia%27s%20CCRPI.pdf" text="Explanation of CCRPI" %}
+</div>
+
+<div class="left">
+{% include elements/button.html link="https://github.com/anisharaja/anisharaja.github.io/blob/master/assets/csv/county_personnel.csv" text="CSV File" %}
 </div>
 
 <div class="right">
@@ -33,21 +42,28 @@ My main visualization is in the form of a dashboard, which means that changes th
 <br>
 <br>
 <br>
+<br>
 
-
-
-
+---
 ## How Georgia Pays its Teachers Compared to Other States
+The original source of this data is from the National Center of Education Statistics.
+
+Disclaimer: I have created this contextual visualization by myself, so I have included the code and the analysis below this visualization.
 <vegachart schema-url="{{ site.baseurl }}/assets/json/state_teacher_salaries.json" style="width: 100%"></vegachart>
 
-Disclaimer: I have created this contextual visualization by myself, so I have included the code and the analysis below:
 #### Links
 <div class="left">
-{% include elements/button.html link="https://github.com/anisharaja/anisharaja.github.io/blob/master/assets/csv/tabn211.60_1.csv" text="The Data" %}
+{% include elements/button.html link="https://nces.ed.gov/programs/digest/d22/tables/dt22_211.60.asp" text="Original Data Source" %}
 </div>
 
 <div class="right">
 {% include elements/button.html link="https://github.com/anisharaja/anisharaja.github.io/blob/master/python_notebooks/how_teachers_pay_by_state.ipynb" text="The Analysis" %}
+
+<div class="left">
+{% include elements/button.html link="https://github.com/anisharaja/anisharaja.github.io/blob/master/assets/csv/tabn211.60_1.csv" text="CSV File" %}
+</div>
+
+
 </div>
 <br>
 <br>
@@ -57,19 +73,24 @@ Disclaimer: I have created this contextual visualization by myself, so I have in
 
 
 
-
+---
 ## How Georgia Pays its Administrators Compared to Other States
+Disclaimer: I got this visualization from the Bureau of Labor Statistics:[https://www.bls.gov/oes/current/oes119039.htm](https://www.bls.gov/oes/current/oes119039.htm)
+
 <img src = "{{ site.baseurl }}/assets/pngs/administrators.png"/>
-Disclaimer: I got this visualization from [https://www.bls.gov/oes/current/oes119039.htm](https://www.bls.gov/oes/current/oes119039.htm)
+
 
 #### Links
 <div class="left">
-{% include elements/button.html link="https://www.bls.gov/oes/current/oes119039.htm" text="Source" %}
+{% include elements/button.html link="https://www.bls.gov/oes/current/oes119039.htm" text="Original Source" %}
 </div>
 
 <br>
 <br>
+<br>
 
+
+---
 ## Write-Up
 In the dashboard, I have decided to highlight how teachers in Georgia are paid in relation to their county's Public School CCRPI score in 2019. I have highlighted this relationship in my main visualization because a popular notion about education is that if a county has high test scores, then the salaries for the teachers tend to be higher. My goal for this visualization is to see if this notion is true or not and have some evidence to back my conclusion up. Also, I wanted to make this visualization into a dashboard format because I wanted to see if this trend would also be true for the salaries of administrators and support staff for each county. Since the points on the plot on the left look like a line going up and to the right, the idea that higher test scores leads to higher salaries in the various counties could be correct.    
 
@@ -79,6 +100,7 @@ Based on my findings, it seems that Georgia pays their teachers and administrato
 
 <!-- these are written in a combo of html and liquid --> 
 
+---
 ## Links
-The links for the data and jupyter notebooks are under the visualization they correspond to.
+The links for the original source of the data, the csv file I was working with, and the jupyter notebooks are under the visualization they correspond to.
 
