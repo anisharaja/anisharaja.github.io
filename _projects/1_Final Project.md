@@ -12,7 +12,7 @@ custom_js:
 
 
 # Education Statistics of Counties in Georgia, United States
-### By: Anisha Raja
+### By: Anisha Raja (Group 80)
 ---
 ## Average Annual Salary of PK-12 Teachers, Support Staff, and Administrators Compared to Public School CCRPI Score in Georgia counties.
 The original source of this data is from Georgia Data, which is run by University of Georgia's Carl Vinson Institute of Government. The CCRPI is the College and Career Ready Performance Index, which is how Georgia measures a school's ability to prepare its students for the future.  
